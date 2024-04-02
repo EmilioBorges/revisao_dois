@@ -7,7 +7,7 @@
 # def somar_numeros(num_a, num_b):
 #     soma = num_a + num_b
 
-#     print(soma)
+#     print(f'A soma dos resultados é: {soma}')
 #     return soma
 
 # somar_numeros(5,6)
@@ -15,7 +15,7 @@
 # def multiplicar_numeros(num_a, num_b):
 #     multiplicacao = num_a * num_b
 
-#     print(multiplicacao)
+#     print(f'O produto dos numeros é: {multiplicacao}')
 #     return multiplicacao
 
 # multiplicar_numeros(5,6)
@@ -23,14 +23,14 @@
 # def divisao_numeros(num_a, num_b):
 #     divisao = num_a / num_b
 
-#     print(divisao)
+#     print('f'A divisão dos numeros é: {divisao}')
 #     return divisao
 
 # divisao_numeros(30,6)
 
 def  calcular_imc(altura, peso):
     imc = peso / (altura * altura)
-    print(f'seu imc e {imc}')
+    print(f'seu imc e: {imc}')
     return imc
 
 calcular_imc(2,100)
