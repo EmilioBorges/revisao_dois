@@ -20,10 +20,17 @@
 
 # multiplicar_numeros(5,6)
 
-def divisao_numeros(num_a, num_b):
-    divisao = num_a / num_b
+# def divisao_numeros(num_a, num_b):
+#     divisao = num_a / num_b
 
-    print(divisao)
-    return divisao
+#     print(divisao)
+#     return divisao
 
-divisao_numeros(30,6)
+# divisao_numeros(30,6)
+
+def  calcular_imc(altura, peso):
+    imc = peso / (altura * altura)
+    print(f'seu imc e {imc}')
+    return imc
+
+calcular_imc(2,100)
