@@ -4,10 +4,18 @@
 
 # chamar_usuario()
 
-def somar_numeros(num_a, num_b):
-    soma = num_a + num_b
+# def somar_numeros(num_a, num_b):
+#     soma = num_a + num_b
 
-    print(soma)
-    return soma
+#     print(soma)
+#     return soma
 
-somar_numeros(5,6)
+# somar_numeros(5,6)
+
+def multiplicar_numeros(num_a, num_b):
+    multiplicacao = num_a * num_b
+
+    print(multiplicacao)
+    return multiplicacao
+
+multiplicar_numeros(5,6)
