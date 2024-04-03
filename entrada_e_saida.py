@@ -34,3 +34,6 @@ def  calcular_imc(altura, peso):
     return imc
 
 calcular_imc(2,100)
+
+
+
