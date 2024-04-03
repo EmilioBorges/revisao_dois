@@ -14,13 +14,25 @@
 # verifica_maior_idade()
 
 
-def par_impar():
-    numero = int(input('Digite um numero: '))
+# def par_impar():
+#     numero = int(input('Digite um numero: '))
 
-    if numero % 2 == 0:
-        print('Numero par')
+#     if numero % 2 == 0:
+#         print('Numero par')
+#     else:
+#         print('Numero impar')
+
+
+# par_impar()
+
+def resultado_final():
+    nota = int(input('Digite a sua nota: '))
+
+    if nota < 0:
+        print('Dgite um valor maior que 0')
+    elif nota >= 7:
+        print('Aluno aprovado')
     else:
-        print('Numero impar')
+        print('Aluno Reprovado')
 
-
-par_impar()
+resultado_final()
