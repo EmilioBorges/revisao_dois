@@ -26,13 +26,19 @@
 # par_impar()
 
 def resultado_final():
-    nota = int(input('Digite a sua nota: '))
+    
 
-    if nota < 0:
-        print('Dgite um valor maior que 0')
-    elif nota >= 7:
-        print('Aluno aprovado')
-    else:
-        print('Aluno Reprovado')
+    try:
+        nota = int(input('Digite a sua nota: '))
+    
+        if nota < 0:
+            print('Dgite um valor maior que 0')
+        elif nota >= 7:
+            print('Aluno aprovado')
+        else:
+            print('Aluno Reprovado')
+    except:
+        print('Não e um numero, tente outra vez')
+    
 
 resultado_final()
